@@ -337,19 +337,19 @@ test21CuandoLaraLaAvispaNoTieneRecursosNoDejaUnHuevo
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'JMB 4/19/2022 19:14:52'!
 cantidadDeHuevosConLaFirmaGeneticaDeLara
-	Assert isTrue: false description: 'Reemplazar esto por la implementaci髇 correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaci贸n correspondiente'.! !
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'JMB 4/19/2022 19:14:57'!
 cantidadDeHuevosConLaFirmaGeneticaDeOriana
-	Assert isTrue: false description: 'Reemplazar esto por la implementaci髇 correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaci贸n correspondiente'.! !
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'JMB 4/19/2022 19:15:03'!
 cantidadDeHuevosConLaFirmaGeneticaDeOrnella
-	Assert isTrue: false description: 'Reemplazar esto por la implementaci髇 correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaci贸n correspondiente'.! !
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'JMB 4/19/2022 19:15:09'!
 cantidadDeHuevosConLaFirmaGeneticaDePolly
-	Assert isTrue: false description: 'Reemplazar esto por la implementaci髇 correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaci贸n correspondiente'.! !
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'Santi 4/21/2022 19:56:57'!
 habitat
@@ -361,7 +361,7 @@ hacerQueElHabitatTengaLosRecursosSuficientes
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'JMB 4/19/2022 19:14:28'!
 laAvispaLara
-	Assert isTrue: false description: 'Reemplazar esto por la implementaci髇 correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaci贸n correspondiente'.! !
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'Santi 4/21/2022 19:58:14'!
 laAvispaOriana
@@ -383,7 +383,7 @@ queElHabitatTengaDosOrugasMas
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'JMB 4/19/2022 19:15:33'!
 queElHabitatTengaDosPolillasMas
-	Assert isTrue: false description: 'Reemplazar esto por la implementaci髇 correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaci贸n correspondiente'.! !
 
 !PruebasReproduccionDeAvispas class methodsFor: 'Para completar' stamp: 'Santi 4/21/2022 20:22:36'!
 queElHabitatTengaUnaOrugaMas
