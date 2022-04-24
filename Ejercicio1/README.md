@@ -1,3 +1,3 @@
-#Preguntas
+# Preguntas
 
-##Preguntas para despues de hacer el ejercicio.
+## Preguntas para despues de hacer el ejercicio.
