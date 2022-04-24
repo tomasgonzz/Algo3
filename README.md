@@ -1,7 +1,7 @@
 # Algo3
 
-Grupo 14
+## Grupo 14
 
-Gonzalez, Tomas y Moreno De Ruvo, Valentina. 
+### Gonzalez, Tomas 108193 
 
-108193 y 107948
+### Moreno De Ruvo, Valentina 107948
