@@ -61,8 +61,8 @@ eliminarHuevosConFirmaGenetica
 
 !Habitat class methodsFor: 'General' stamp: 'VM 4/24/2022 16:33:10'!
 hacerqueTengaRecursosSuficientes
-	5 timesRepeat: [self aumentarOruga.].
-	5 timesRepeat: [self aumentarPolilla.].
+	2 timesRepeat: [self aumentarOruga.].
+	self aumentarPolilla.
 
 ! !
 
