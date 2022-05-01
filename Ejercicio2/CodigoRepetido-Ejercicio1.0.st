@@ -22,7 +22,7 @@ TestCase subclass: #CustomerBookTest
 	category: 'CodigoRepetido-Ejercicio'!
 
 !CustomerBookTest methodsFor: 'testing' stamp: 'VM 5/1/2022 17:19:04'!
-añadirYSuspenderenLibro: unLibro aCliente: unCliente
+aÃ±adirYSuspenderenLibro: unLibro aCliente: unCliente
 
 	unLibro addCustomerNamed: unCliente.
 	unLibro suspendCustomerNamed: unCliente.! !
@@ -88,7 +88,7 @@ test05SuspendingACustomerShouldNotRemoveItFromCustomerBook
 	customerBook := CustomerBook new.
 	paulMcCartney := 'Paul McCartney'.
 	
-	self añadirYSuspenderenLibro: customerBook aCliente: paulMcCartney .
+	self aÃ±adirYSuspenderenLibro: customerBook aCliente: paulMcCartney .
 	self verificarCantidadDeClientesEnLibro: customerBook Activos: 0 Suspendidos: 1 Total: 1.
 	self assert: (customerBook includesCustomerNamed: paulMcCartney).! !
 
@@ -100,7 +100,7 @@ test06RemovingASuspendedCustomerShouldRemoveItFromCustomerBook
 	customerBook := CustomerBook new.
 	paulMcCartney := 'Paul McCartney'.
 	
-	self añadirYSuspenderenLibro: customerBook aCliente: paulMcCartney .
+	self aÃ±adirYSuspenderenLibro: customerBook aCliente: paulMcCartney .
 	customerBook removeCustomerNamed: paulMcCartney.
 	self verificarCantidadDeClientesEnLibro: customerBook Activos: 0 Suspendidos: 0 Total: 0.
 	self deny: (customerBook includesCustomerNamed: paulMcCartney).
@@ -126,7 +126,7 @@ test08CanNotSuspendAnAlreadySuspendedCustomer
 			
 	customerBook := CustomerBook new.
 	johnLennon := 'John Lennon'.
-	self añadirYSuspenderenLibro: customerBook aCliente: johnLennon.
+	self aÃ±adirYSuspenderenLibro: customerBook aCliente: johnLennon.
 	
 	self verificarEnBloque: [ customerBook suspendCustomerNamed: johnLennon. self fail ]  sielCliente: johnLennon estaEnLibro: customerBook conEstado: CantSuspend.
 
