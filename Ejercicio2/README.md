@@ -10,10 +10,10 @@ Lo que hicimos para sacar el codigo repetido fue hacer una abstraccion. Basicame
 
 > ¿Cuáles son las formas en que podemos representar entes de la realidad en Smalltalk que conocés? Es decir, ¿qué cosas del lenguaje Smalltalk puedo usar para representar entidades de la realidad?
 
-En principal manera en la que podemos representar entidades de la realidad en Smalltalk es atraves de objetos, estos estarán definidos por los mensajes que sepan responder y la manera en la que lo hagan (método). Cada objeto a su vez podrá tener en su "interior" colaboradores, que si bien forman parte de nuestro entorno, no se corresponde con la entidad principal que intentamos representar.
+En principal, la manera en la que podemos representar entidades de la realidad en Smalltalk es atraves de objetos, estos estarán definidos por los mensajes que sepan responder y la manera en la que lo hagan (método). Cada objeto a su vez podrá tener en su "interior" colaboradores, que si bien forman parte de nuestro entorno, no se corresponde con la entidad principal que intentamos representar. 
 
 ## Teoría de Naur
 
 > ¿Qué relación hay entre sacar código repetido (creando abstracciones) y la teoría del modelo/sistema (del paper de Naur)?
 
-Existe una relación muy cercana entre la Visión de Construcción de Teoría propuesta por Peter Naur y el accionar de quitar código repetido, ya que en este proceso, nosotros, como programadores, lo que estamos realizando es la construcción de una abstracción (teorica), para representar de mejor manera la realidad. Este transformacion involucra tener el conocimiento necesario de la teoría como para poder realizar las modificaciones.
+Existe una relación muy cercana entre la Visión de Construcción de Teoría propuesta por Peter Naur y el accionar de quitar código repetido, ya que en este proceso, nosotros, como programadores, lo que estamos realizando es la construcción de una abstracción (teorica), para representar de mejor manera la realidad. Este transformacion involucra tener el conocimiento necesario de la teoría como para poder realizar las modificaciones. Si nosotros no tenemos esta noción de teoría no seriamos capaces de crear las abstracciones necesarias para quitar el código repetido. Por ende Debemos conocer el ente y la realidad involucradas para poder representarlos de mejor manera en el codigo y ademas de poder crear las abstracciones.  
