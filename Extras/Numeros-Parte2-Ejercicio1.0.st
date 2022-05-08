@@ -346,7 +346,7 @@ canNotDivideByZeroErrorDescription
 
 !Numero class methodsFor: 'error descriptions' stamp: 'NR 5/7/2020 17:46:56'!
 invalidNumberTypeErrorDescription
-	^ 'Tipo de Número Inválido'! !
+	^ 'Tipo de NÃºmero InvÃ¡lido'! !
 
 
 !classDefinition: #Entero category: 'Numeros-Parte2-Ejercicio'!
@@ -488,7 +488,7 @@ Entero class
 
 !Entero class methodsFor: 'instance creation' stamp: 'NR 4/8/2019 02:57:57'!
 negativeFibonacciErrorDescription
-	^ ' Fibonacci no está definido aquí para Enteros Negativos'! !
+	^ ' Fibonacci no estÃ¡ definido aquÃ­ para Enteros Negativos'! !
 
 !Entero class methodsFor: 'instance creation' stamp: 'JS 5/5/2022 03:55:37'!
 with: aValue 
