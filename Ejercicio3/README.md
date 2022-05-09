@@ -28,4 +28,5 @@ Todos los numeros tienen que saber responder los mismos mensajes pero segun el t
 
 >¿Por qué está mal/qué problemas trae romper encapsulamiento?
 
+El encapsulamiento tiene como objetivo una mejor organizacion de nuestro modelo para representar la realidad. Por lo que romperlo implicaria, por un lado, fallar en la reproduccion de los objetos que queremos modelar y por otro lado estariamos dejando que dentro de nuestro modelo se creen conexiones que no suceden en la realidad. 
 
